@@ -1,0 +1,80 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/arr1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Réinitialise la marge par défaut du corps */
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(157, 196, 210);
+    color: #fff(181, 60, 208);
+    padding: 20px;
+    text-align: left;
+}
+
+
+.header-text {
+    margin-top: 10px; /* Ajustez selon vos besoins */
+}
+#content {
+    color: #fff; /* Remplacez par la couleur de texte souhaitée, par exemple, noir (#000000) */
+    margin-top: 60px;
+}
+aside {
+    float: left;
+    position: relative;
+    top: -30px; 
+    margin-right: 20px; /* Ajustez la marge selon vos besoins pour créer un espacement entre l'image et le texte */
+}
+
+
+aside img {
+    max-width: 100px; /* Ajustez la largeur de l'image selon vos besoins */
+    border-radius: 50%; /* Rend l'image circulaire */
+    margin-right: 20px;
+}
+
+#content h2 {
+    color: rgb(157, 196, 210); /* Remplacez #ff0000 par le code de couleur de votre choix */
+}
+#content h3 {
+    color: rgb(196, 150, 206); /* Remplacez #ff0000 par le code de couleur de votre choix */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    position: fixed;
+    color: #fff(181, 60, 208);
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(157, 196, 210); /* Couleur de fond, ajustez selon votre préférence */
+    text-align: center;
+    padding: 10px; /* Ajoutez un espace autour du texte pour plus de visibilité */
+}
+.image-container {
+    width: 50px; /* Ajustez la largeur selon vos besoins */
+    height: 10px; /* Pour conserver les proportions de l'image */
+    /* Ajoutez d'autres styles si nécessaire */
+}
